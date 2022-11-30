@@ -1,6 +1,6 @@
 import requests
 
-request = requests.get('https://dad-jokes.p.rapidapi.com/random/joke')
+request = requests.get('https://api.chucknorris.io/jokes/random')
 result = request.json()
 
 print(result['value'])
